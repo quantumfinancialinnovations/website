@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quantum Financial Innovations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Quantum Financial Innovations develops next-generation digital tokens powered by quantum computing."
+  />
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-50">
+  <div class="min-h-screen flex flex-col">
+    <!-- Main content -->
+    <main class="flex-1 flex items-center justify-center px-4">
+      <div class="max-w-2xl w-full text-center">
+        <!-- Logo / Name -->
+        <div class="inline-flex items-center gap-2 mb-6">
+          <div class="h-9 w-9 rounded-xl bg-cyan-400/15 border border-cyan-300/40 flex items-center justify-center text-xs font-semibold tracking-tight">
+            QFI
+          </div>
+          <div class="text-left">
+            <h1 class="text-xl sm:text-2xl font-semibold tracking-tight">
+              Quantum Financial Innovations
+            </h1>
+            <p class="text-xs sm:text-sm text-slate-400">
+              Quantum-native token technology
+            </p>
+          </div>
+        </div>
+
+        <!-- Tagline -->
+        <p class="inline-flex items-center rounded-full border border-cyan-400/40 bg-cyan-400/10 px-3 py-1 text-[11px] font-medium tracking-wide text-cyan-200 mb-5">
+          Building tokens with quantum computers
+        </p>
+
+        <!-- Description -->
+        <p class="text-sm sm:text-base text-slate-200/90 leading-relaxed mb-4">
+          Quantum Financial Innovations develops digital tokens that are designed
+          and analyzed using quantum computing technology. We explore new
+          architectures for security, tokenomics, and market behavior that are
+          difficult to study with classical computation alone.
+        </p>
+
+        <p class="text-sm sm:text-base text-slate-200/80 leading-relaxed mb-8">
+          Our focus is simple: create a new generation of financial primitives
+          that are transparent, technically sound, and ready for a future where
+          quantum and classical computing coexist.
+        </p>
+
+        <!-- Contact -->
+        <div class="border border-cyan-400/50 rounded-2xl bg-cyan-400/5 px-5 py-5 sm:px-6 sm:py-6 inline-block text-left mx-auto">
+          <h2 class="text-sm sm:text-base font-semibold mb-2">
+            Contact
+          </h2>
+          <p class="text-xs sm:text-sm text-slate-100 mb-3">
+            For collaboration, research, or investment inquiries, please reach out by email:
+          </p>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+            <div class="font-mono text-xs sm:text-sm text-cyan-100 break-all">
+              info@qf-innovations.com
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4 text-[11px] sm:text-xs text-slate-500 text-center border-t border-slate-800">
+      © <span id="year-span"></span> Quantum Financial Innovations
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year-span").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
